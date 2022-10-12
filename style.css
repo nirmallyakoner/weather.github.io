@@ -1,0 +1,37 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background: #222;
+    font-family: 'Open Sans', sans-serif;
+    background-image: url(./images/facebook-portal-01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card{
+  background-color: #000000d0;
+  color: white;
+  padding: 20px 50px; 
+  border-radius: 25px;
+  width: 100%;
+  max-width: 420px;
+  margin: 1m;
+
+  }
+
+.description{
+  text-transform: capitalize;
+
+}
+.humidity{
+  text-transform: capitalize;
+}
+.flex{
+  text-align: center;
+  display: flex;
+}
+.temp{
+  margin-bottom: 10px;
+}
